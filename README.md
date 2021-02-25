@@ -1,1 +1,1 @@
-# Inicio
+# Projeto Strata
