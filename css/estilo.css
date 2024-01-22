@@ -35,18 +35,19 @@ h6 {
 }
 
 p {
-    margin: 0 0 2em;
+    margin: 0 0 7em;
 }
 
 a {
     transition: color .2s linear, border .2s linear;
-    text-decoration: none;
+    text-decoration: none !important;
     border-bottom: 1px dotted;
     color:#49bf9d;
 }
 
 a:hover {
     border-bottom-color: transparent;
+    text-decoration: none !important;
 }
 
 ul, ol {
@@ -145,7 +146,7 @@ li {
     left: 0;
     height: 100%;
     width:35%;
-    padding: 124px 54px 72px;
+    padding: 45px 24px 72px;
     box-sizing: border-box;
     background-image: url(../images/overlay.png), url(../images/bg.jpg);
     background-position: left top;
@@ -159,7 +160,8 @@ li {
 }
 
 .main-header-title {
-    font-size: 22px;
+    padding-top: 35px;
+    font-size: 20px;
     line-height: 1.5;
     color: white;
     font-weight: normal;
@@ -175,8 +177,9 @@ li {
 }
 
 .main-header-link img {
-  border-radius: 50%;
+    border-radius: 50%;
     overflow: hidden;
+    width: 50%;
 }
 
 .main-content {
@@ -243,6 +246,7 @@ sub, sup {
     margin: 0 0 2em 0;
     border-collapse: collapse;
     text-align: left;
+    color: #d46c7e;
 }
 
 .table th {
@@ -301,12 +305,59 @@ img {
 }
 
 .avatar-l {
+    float: left;
     border-radius: 18px;
+    width: 40%;
+    margin-right: 10px;
 }
 
 .avatar-r {
     float: right;
     border-radius: 18px;
+    width: 40%;
+}
+
+.title-h1 {
+    text-shadow: 20px 20px pink;
+}
+
+.title-h2 {
+    text-decoration: underline 5px pink;
+}
+
+.title-h3 {
+    box-shadow: 6px 0 0 0 pink, -3px 0 0 0 pink;
+    background: pink;
+	display: inline;
+	padding: 3px 0 !important;
+	position: relative;
+}
+
+.title-h4 {
+   border: 4px dotted pink;
+   width: 13%;
+   text-align: center;
+}
+
+.title-h5 {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 50%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+.title-h6 {
+    text-decoration:line-through ;
 }
 
 /*Tabela*/
@@ -315,6 +366,7 @@ input, label, textarea, select {
     display: inline-block;
     width: 100%;
     box-sizing: border-box;
+    padding-top: 10px;
 }
 
 input, textarea, select {
@@ -344,10 +396,6 @@ textarea {
     overflow: hidden;
     visibility: hidden;
     display: block;
-}
-
-.fab {
-    font-family:  
 }
 
 /*Citação*/

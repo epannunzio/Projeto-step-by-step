@@ -21,24 +21,28 @@
             <h1 class="main-header-title">
                 Trabalhos testes de <br>
                 <strong>Edilza Rodrigues Pannunzio</strong>,<br> 
-                uma aprendiz de frontend
-            </h1>    
-            <p>Design by <a href="https://github.com/epannunzio" class="main-header-link">Edilza Pannunzio</a></p>           
+                uma aprendiz de frontend - 2020
+            </h1>          
         </header>
+
         <main class=main-content>
             <section class="main-content-section">
                 <h2>Um pouco de tudo que aprendi até agora!</h2>
                 <p>Vamos de Lorem ipsum! Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
-                <a href="#" title="Veja mais" class="button-default button-default-stroke button-default-big">Veja mais</a> 
+                <button class="button-default button-default-stroke button-default-big">
+                  <a href="#textoMaisAbaixo">Veja mais</a> <!--dessa forma tenho um link âncora-->
+                </button>                
             </section>
             
             <section class="main-content-section">
-                <h3>Trabalhos recentes</h3>
+                <h3>Incluindo imagens com click</h3>
                 <div class="row">
                     <div class="col-2">
                         
                 <article class="recent-works-card">
-                    <a class="imagem-link" href="images/fulls/01.jpg"> <img src="images/thumbs/01.jpg" alt="descrição"> </a>
+                    <a class="imagem-link" href="images/fulls/01.jpg"> 
+                      <img src="images/thumbs/01.jpg" alt="descrição"> 
+                    </a>
                     <p class="recent-works-card-title">Accumsan orci faucibus id eu lorem semper.</p>
                     <p>Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
                 </article>
@@ -77,10 +81,10 @@
                     </div>
                 </div>
                 
-                <a href="#" title="Veja portfolio completo" class="button-default">Veja portfólio completo</a>  
+                <a href="https://www.behance.net/edilzapannunzio" title="Veja portfolio completo" class="button-default" target="_blank">Veja portfólio completo</a>  
             </section>
             
-            <section class="main-content-section">
+            <section class="main-content-section" id="textoMaisAbaixo">
                 <h3>Entre em contato</h3>
                 <p>Aqui você pode deixar sua opnião, sugestão ou crítica sobre minha página.</p>
                 
@@ -104,16 +108,16 @@
                         </form>
                     </div>
                     
-                    <div class="col-1-3">
+                    <div class="col-1-3" style="padding-top: 40px;">
                        <address>
                            <p>
                               <spam>Endereço: </spam>
-                              Rua Olinda 265 Vila Nova Petrópolis SBC / SP
+                              Avenida da saudade, 2200 - Pinhalzinho / SP
                            </p>
                 
                            <p>
                               <spam>Telefone: </spam>
-                              011 93505-8189
+                              011 98803-2511
                            </p>
                 
                            <p>
@@ -128,33 +132,45 @@
              <section class="main-content-section">
                  <h3>Elementos</h3>
                  <h4>Texto</h4>
-                 <p>Começa um parágrafo <b>Começam palavras em negrito</b> <strong>Começam palavras com semântica para busca</strong> magneto xavier <i>Palavra em itálico</i> Lorem ipsum magneto xavier <em>Uma palavra com ênfase</em>.
-                     Lorem ipsum <sup>Uma frase que poderia ser um número ao quadrado</sup> xavier <sub>Não sei bem quando usar essa tag sub</sub>.Lorem ipsum magneto xavier xmen, Lorem ipsum magneto xavier xmen, <u>Começa uma frase sublinhada</u> magneto xavier xmen, <code> Código (000) você ja sabe que é um código aqui</code> Lorem ipsum magneto xavier xmen.<a href="http://google.com.br"> Um link aleatório aqui</a></p>
-                
-                 <h1>Titulo H1</h1>
-                 <h2>Titulo H2</h2>
-                 <h3>Titulo H3</h3>
-                 <h4>Titulo H4</h4>
-                 <h5>Titulo H5</h5>
-                 <h6>Titulo H6</h6>
+                 <p>Começa um parágrafo<br>
+                    <b>Começam palavras em negrito</b><br>
+                    <strong>Começam palavras com semântica para busca</strong><br>
+                    magneto xavier <i>Palavra em itálico</i><br>
+                    Lorem ipsum magneto xavier <em>Uma palavra com ênfase</em>.<br>
+                    Lorem ipsum <sup>Uma frase que poderia ser um número ao quadrado</sup> xavier<br>
+                    Lorem ipsum magneto xavier xmen, <u>Começa uma frase sublinhada</u> magneto xavier xmen,<br>
+                    <code>Código (000) você ja sabe que aqui é um código</code> Lorem ipsum magneto xavier xmen.<br>
+                    <a href="http://google.com.br"> Um link do Google aleatório aqui</a></p>
+
+                <h3>Exemplos de títulos e decorações/animações</h3>
+
+                 <h1 class="title-h1">Titulo H1</h1>
+                 <h2 class="title-h2">Titulo H2</h2>
+                 <h3 class="title-h3">Titulo H3</h3>
+                 <h4 class="title-h4">Titulo H4</h4>
+                 <h5 class="title-h5">Titulo H5</h5>
+                 <h6 class="title-h6">Titulo H6</h6>
+             
+          <p>Inserindo citações com destaque</p>
+          <blockquote cite="http://developer.mozilla.org">
+            <p>"Se um dia eu não viver, logo não existirei." - Edilza Pannunzio</p>
+          </blockquote>
+
+          <p>Inserindo citações<br>
+            <q cite="https://www.mozilla.org/en-US/about/history/details/" style="color: red;">Firefox 1.0 was released in 2004 and became the best</q>
+          </p>
                  
+          <h4>Pré-formatado</h4>
                  
-                 <blockquote cite="http://developer.mozilla.org">
-                     <p>"Se um dia eu não viver, logo não existirei." - Edilza Pannunzio</p>
-                 </blockquote>
-            <p>Accorgind to Mozilla web site,
-                <q cite="https://www.mozilla.org/en-US/about/history/details/">Firefox 1.0 was released in 2004 and became the best</q></p>
-                 
-                 <h4>Preformatado</h4>
-                 
-                 <pre><code>
-&lt;script&gt;
-alert('oi');
-&lt;/script&gt;
-                 </code></pre>
-                 
-           <h4>Listas</h4>
-                 
+          <pre>
+            <code>
+                &lt;script&gt;
+                alert('oi');
+                &lt;/script&gt;
+            </code>
+          </pre>
+            
+            <h2>Listas</h2>
               <div class="row">
                 <div class="col-2">
                  <h5>Não ordenadas</h5>
@@ -172,115 +188,115 @@ alert('oi');
                   </ol>
                 </div>
                   
-                  <div class="col-2">
-                    <h5>Alternate</h5>
-                      <ul class="ul-alternate">
-                         <li>Item 1</li>
-                         <li>Item 2</li>
-                         <li>Item 3</li>
-                      </ul>
+                <div class="col-2">
+                  <h5>Alternate</h5>
+                    <ul class="ul-alternate">
+                      <li>Item 1</li>
+                      <li>Item 2</li>
+                      <li>Item 3</li>
+                    </ul>
                  
                     <h5>Ícones</h5>
                       <ul class="ul-icons">
-                         <li style="color: aqua"><span class="hidden">Twitter</span><i class="fab fa-twitter-square"></i></li>
-                         <li style="color: blue"><span class="hidden">Facebook</span><i class="fab fa-facebook-square"></i>   </li>
-                         <li style="color:crimson"><span class="hidden">Instagram</span><i class="fab fa-instagram-square"></i></li>
+                        <li style="color: #39d0d0"><span class="hidden">Twitter</span><i class="fab fa-twitter-square"></i></li>
+                        <li style="color: blue"><span class="hidden">Facebook</span><i class="fab fa-facebook-square"></i>   </li>
+                        <li style="color:#ed14af"><span class="hidden">Instagram</span><i class="fab fa-instagram-square"></i></li>
                       </ul>
                   </div>
-              </div>
+                </div>
                  
-                 <h5>Ações</h5>
+                <h5>Ações</h5>
                  
-                   <div class="row">
-                    <div class="col-2">
+                <div class="row">
+                  <div class="col-2">
+                    <p>
+                      <a href="#" class="button-default">Default</a>
+                      <a href="#" class="button-default button-default-stroke">Stroke</a>
+                    </p>
                  
-                        <p>
-                          <a href="#" class="button-default">Default</a>
-                          <a href="#" class="button-default button-default-stroke">Stroke</a>
-                        </p>
-                 
-                        <p>
-                          <a href="#" class="button-default button-default-small">Default</a>
-                          <a href="#" class="button-default button-default-small button-default-stroke">Small</a>
-                        </p>
-                    </div>  
+                    <p>
+                      <a href="#" class="button-default button-default-small">Default</a>
+                      <a href="#" class="button-default button-default-small button-default-stroke">Small</a>
+                    </p>
+                  </div>  
                        
-                    <div class="col-2">
-                         <p>
-                           <a href="#" class="button-default button-default-full">Default</a>
-                           <a href="#" class="button-default button-default-full button-default-stroke">Full</a>
-                         </p>
+                  <div class="col-2">
+                    <p>
+                      <a href="#" class="button-default button-default-full">Default</a>
+                      <a href="#" class="button-default button-default-full button-default-stroke">Full</a>
+                    </p>
                  
-                         <p>
-                           <a href="#" class="button-default button-default-full button-default-small">Default</a>
-                           <a href="#" class="button-default button-default-full button-default-small button-default-stroke">Default</a>
-                         </p>
-                    </div>
-                 </div><!--fechei row--> 
+                    <p>
+                      <a href="#" class="button-default button-default-full button-default-small">Default</a>
+                      <a href="#" class="button-default button-default-full button-default-small button-default-stroke">Default</a>
+                    </p>
+                  </div>
+                </div><!--fechei row--> 
                  
               <h4>Tabelas</h4>
               <h5>Default</h5>
         <table class="table">         
         <thead>
-        <tr>
+          <tr>
             <th>Name</th>
             <th>Description</th>
             <th>Price</th>
-        </tr>
+          </tr>
         </thead>
-          <tfoot>
-            <tr>
-              <td colspan="2"></td>  
-              <td>100.00</td>
-            </tr>      
-          </tfoot>
+
+        <tfoot>
+          <tr>
+            <td colspan="2"></td>  
+            <td>100.00</td>
+          </tr>      
+        </tfoot>
+
         <tbody>
           <tr>
-           <td>Item one</td>
-           <td>Lorem ipsum magneto xavier xmen</td>
-           <td>19.90</td>
+            <td>Item one</td>
+            <td>Lorem ipsum magneto xavier xmen</td>
+            <td>19.90</td>
           </tr>
             
           <tr>
-           <td>Item two</td>
-           <td>Lorem ipsum magneto xavier xmen</td>
-           <td>19.90</td>
+            <td>Item two</td>
+            <td>Lorem ipsum magneto xavier xmen</td>
+            <td>19.90</td>
           </tr>
             
           <tr>
-           <td>Item three</td>
-           <td>Lorem ipsum magneto xavier xmen</td>
-           <td>10.90</td>
+            <td>Item three</td>
+            <td>Lorem ipsum magneto xavier xmen</td>
+            <td>10.90</td>
           </tr>
             
           <tr>
-           <td>Item four</td>
-           <td>Lorem ipsum magneto xavier xmen</td>
-           <td>10.90</td>
+            <td>Item four</td>
+            <td>Lorem ipsum magneto xavier xmen</td>
+            <td>10.90</td>
           </tr>
             
           <tr>
-           <td>Item five</td>
-           <td>Lorem ipsum magneto xavier xmen</td>
-           <td>19.90</td>     
+            <td>Item five</td>
+            <td>Lorem ipsum magneto xavier xmen</td>
+            <td>19.90</td>     
           </tr>    
-           
         </table>
                  
         <h5>Alternate</h5>
-         <table class="table table-alternate">         
-          <thead>
-           <tr>
-            <th>Name</th>
-            <th>Description</th>
-            <th>Price</th>
-        </tr>
-         </thead>
+          <table class="table table-alternate">         
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Price</th>
+              </tr>
+            </thead>
         <tfoot>
-           <tr>
+          <tr>
             <td colspan="2"></td>  
             <td>100.00</td>
-           </tr>      
+          </tr>      
         </tfoot>
         
         <tbody>
@@ -314,7 +330,7 @@ alert('oi');
            <td>19.90</td>
           </tr>         
         </tbody>
-    </table>
+      </table>
                  
          <h5>Botões</h5>
             <p>
@@ -337,35 +353,40 @@ alert('oi');
                <button class="button-default button-default-full button-default-small button-default-stroke">Default</button>
             </p>
                  
-    <h5>Formulários</h5>
+          <h5>Exemplo de formulário</h5>
             <form action="#" method="post">
-                       <label for="name">Nome</label> 
-                       <input placeholder="Seu nome aqui" type="text" name="name" id="name">      
+                <label for="name">Nome</label> 
+                <input placeholder="Seu nome aqui" type="text" name="name" id="name">      
                
-                       <label for="email">E-mail</label> 
-                       <input placeholder="Seu e-mail aqui" type="email" name="email" id="email">  
-                 
-                <select>
-                       <option value="0">Selecione...</option> 
-                       <option value="1">HTML</option> 
-                       <option value="2">CSS</option> 
-                       <option value="3">JavaScript</option> 
+                <label for="email">E-mail</label> 
+                <input placeholder="Seu e-mail aqui" type="email" name="email" id="email">  
+                
+                <label for="select">Qual o seu preferido:</label>
+                <select> 
+                  <option value="0">Selecione...</option> 
+                  <option value="1">HTML</option> 
+                  <option value="2">CSS</option> 
+                  <option value="3">JavaScript</option> 
                 </select> 
            
-                       <label><input type="radio" value="baixa" name="prioridade">Baixa Prioridade</label> <label><input type="radio" value="media" name="prioridade">Média Prioridade</label> <label><input type="radio" value="alta" name="prioridade">Alta Prioridade</label> 
+                <label for="select">Exemplos com type radio:</label>
+                <label><input type="radio" value="baixa" name="prioridade">Baixa Prioridade</label>
+                <label><input type="radio" value="media" name="prioridade">Média Prioridade</label>
+                <label><input type="radio" value="alta" name="prioridade">Alta Prioridade</label> 
                
-                       <label><input type="checkbox" name="copy" value="1">Envie-me uma cópia</label>   
-                       <label><input type="checkbox" name="human" value="1">Não sou um robô</label>  
+                <label for="select">Exemplos com checkbox:</label>
+                <label><input type="checkbox" name="copy" value="1">Envie-me uma cópia</label>   
+                <label><input type="checkbox" name="human" value="1">Não sou um robô</label>  
          
-                      <label for="msg">Mensagem:</label>         
-                      <textarea placeholder="digite uma mensagem" id="msg"></textarea>         
-                      <input type="submit" class="button-default" value="enviar">  
-                      <input type="reset" class="button-default button-default-stroke" value="limpar">  
-           </form>
+                <label for="msg">Mensagem:</label>         
+                  <textarea placeholder="Digite uma mensagem" id="msg"></textarea>         
+                  <input type="submit" class="button-default" value="enviar">  
+                  <input type="reset" class="button-default button-default-stroke" value="limpar">  
+              </form>
     </section>  
             
     <section class="main-content-section">
-        <h3>Imagens</h3>    
+        <h3>Disposição de Imagens</h3>    
          
         <div class="gallery-img">
           <img src="images/fulls/01.jpg" alt="">
@@ -380,34 +401,33 @@ alert('oi');
           <img class="col-1-3" src="images/thumbs/01.jpg" alt="">
           <img class="col-1-3" src="images/thumbs/02.jpg" alt="">
           <img class="col-1-3" src="images/thumbs/03.jpg" alt="">
-        </div>    
-         
-    <h4>Left &amp; Right</h4>   
-        <p>
-          <img class="avatar-l" src="images/avatar.jpg" alt="">Lorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmen.Lorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmen.
-        </p>
-        
-        <p>
-          <img class="avatar-r" src="images/avatar.jpg" alt="">Lorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmen.Lorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmen.
-        </p>
-        
+        </div>   
+
+        <div>
+          <h4>Left &amp; Right</h4>   
+          <p>
+            <img class="avatar-l" src="images/avatar.jpg" alt="">Lorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmen.Lorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmen.
+          </p>
+          
+          <p>
+            <img class="avatar-r" src="images/avatar.jpg" alt="">Lorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmen.Lorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmenLorem ipsum magneto xavier xmen.
+          </p>
+        </div>
     </section>        
-      </main>        
+  </main>        
                 
         <footer class="main-footer">
               <ul class="ul-icons">
-                 <li><a href="https://www.instagram.com/?hl=pt-br" class="icon-link"><span class="hidden">Instagram</span>
-                      <i class="fab fa-instagram-square"></i></a>
+                 <li><a href="https://www.instagram.com/onechance32/" class="icon-link" target="_blank"><span class="hidden">Instagram</span>
+                    <i class="fab fa-instagram-square"></i></a>
                  </li>
                   
-                 <li><a href="https://www.facebook.com/vandinha.32" class="icon-link"><span class="hidden">Facebook</span>
-                      <i class="fab fa-facebook-square"></i></a>
+                 <li><a href="https://www.linkedin.com/in/epannunzio/" class="icon-link" target="_blank"><span class="hidden">Linkedin</span>
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
                  </li>
               </ul>
             <ul class="copyright">
-                <li>&copy; Untitled</li> 
-                <li>Design: "<a href="http://html5up.net">HTML5 UP</a>"
-                </li>
+                <li>&copy; Design by <a href="https://github.com/epannunzio" class="main-header-link" target="_blank">Edilza Pannunzio</a></li>     
             </ul>
         </footer>
      </body>
